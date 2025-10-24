@@ -9,7 +9,7 @@ header{
     background-color: black;
     color: white;
     font-family: "Racing Sans One", "Orbitron", "Lemon", sans-serif;
-    font-size: 1.4rem;
+    font-size: 2.1rem;
     text-align: center;
     z-index: 50;
     background-size: cover;
@@ -41,7 +41,7 @@ header{
     padding: 10px;
     z-index: 100;
     font-family: "Racing Sans One", "Orbitron", "Lemon", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     width: 100%;
 }
 .menu *{ 
@@ -58,7 +58,7 @@ header{
     font-family: "Racing Sans One", "Orbitron", "Lemon", sans-serif;
     color: #333;
     margin: 3rem;
-    font-size:1.2rem;
+    font-size: 1.8rem;
     margin-bottom: 90px;
 }
 .contenedor-biografia .apartado{
@@ -80,6 +80,7 @@ header{
 }
 form {
     font-family: "Racing Sans One", "Orbitron", "Lemon", sans-serif;
+    font-size: 1.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,7 +103,7 @@ fieldset {
 }
 legend {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.95rem;
     color: #333;
 }
 label {
@@ -133,7 +134,7 @@ input, textarea {
 }
 main{
     padding: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     padding-bottom: 75px;
     line-height: 1.6;
 }
@@ -170,7 +171,7 @@ main h1, main h2{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-section.destacados :nth-of-type(3) {
+section.destacados >:nth-of-type(3) {
     background-image: url("../assets/images/fondo_contacto_v3.jpg");
     background-size: cover;
     background-position: center;
@@ -211,6 +212,7 @@ section.destacados :nth-of-type(3) {
     grid-template-columns: 1fr 1fr ;
     row-gap: 50px; 
     margin-bottom: 90px;
+    font-size: 1.4rem;
 }
 .contenedor-portfolio > *:last-child:nth-child(odd) {
     grid-column: 1 / -1;
@@ -277,14 +279,14 @@ section.destacados :nth-of-type(3) {
 
 @media screen and (min-width:768px) {
     header{
-        font-size: 1.6rem;
+        font-size: 2.4rem;
     }
     .Logo img{
         width: 5rem;
         height: auto;
     }
     .menu{
-        font-size: 1.3rem;
+        font-size: 1.95rem;
     }
     main section{
         padding-top: 20px;
@@ -334,6 +336,9 @@ section.destacados :nth-of-type(3) {
         width: 100%;
         grid-column: auto;
     }
+    .contenedor-portfolio{
+        font-size: 1.5rem;
+    }
 }/*768px*/
 
 
@@ -345,14 +350,14 @@ section.destacados :nth-of-type(3) {
 
 @media screen and (min-width:992px) {
     header{
-        font-size: 1.8rem;
+        font-size: 2.7rem;
     }
     .Logo img{
         width: 6.5rem;
         height: auto;
     }
     .menu{
-        font-size: 1.4rem;
+        font-size: 2.1rem;
     }
     main section{
         padding-top: 25px;
@@ -376,6 +381,9 @@ section.destacados :nth-of-type(3) {
         justify-content: space-evenly;
         gap: 20px;
     }
+    .contenedor-portfolio{
+        font-size: 1.6rem;
+    }
 }/*992px*/
 
 /* 
@@ -386,17 +394,17 @@ section.destacados :nth-of-type(3) {
 
 @media screen and (min-width:1200px) {
     header{
-        font-size: 2rem;
+        font-size: 4rem;
     }
     .Logo img{
         width: 8rem;
         height: auto;
     }
     .menu{
-        font-size: 1.6rem;
+        font-size: 2.4rem;
     }
     main{
-        font-size: 1.3rem;
+        font-size: 1.95rem;
     }
     main section{
         padding-top: 25px;
@@ -419,7 +427,7 @@ section.destacados :nth-of-type(3) {
     }
     .contenedor-biografia{
         margin: 3rem;
-        font-size:1.3rem;    
+        font-size:1.95rem;    
     }
     .contenedor-contacto{
         display: flex;
@@ -427,5 +435,8 @@ section.destacados :nth-of-type(3) {
         flex-direction: row;
         justify-content: space-evenly;
         gap: 20px;
+    }
+    .contenedor-portfolio{
+        font-size: 1.8rem;
     }
 }/*1200px*/
