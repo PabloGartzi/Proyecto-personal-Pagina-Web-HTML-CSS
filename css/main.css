@@ -242,18 +242,21 @@ section.destacados >:nth-of-type(3) {
 .foto-contacto{
     width: auto;
 }
-.videos{
-    display: flex;
-    justify-content: space-around;
+.videos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
     max-width: 75%;
-    margin: 5px auto;
-    margin-bottom: 80px;
+    margin: 5px auto 80px auto;
     align-items: center;
 }
 .videos video {
-    max-width: 350px;
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
 }
 /* ==================================== PIE DE PAGINA ============================================ */
 .pie-de-pagina{
@@ -344,7 +347,7 @@ section.destacados >:nth-of-type(3) {
 
 /* 
 < ===================================================== >
-                        922px
+                        992px
 < ===================================================== >
 */
 
@@ -383,6 +386,11 @@ section.destacados >:nth-of-type(3) {
     }
     .contenedor-portfolio{
         font-size: 1.6rem;
+    }
+    .videos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin-bottom: 80px;
     }
 }/*992px*/
 
