@@ -171,7 +171,7 @@ main h1, main h2{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-section.destacados >:nth-of-type(3) {
+.destacados .articulos-destacados > article:nth-of-type(3) {
     background-image: url("../assets/images/fondo_contacto_v3.jpg");
     background-size: cover;
     background-position: center;
@@ -435,7 +435,8 @@ section.destacados >:nth-of-type(3) {
     }
     .contenedor-biografia{
         margin: 3rem;
-        font-size:1.95rem;    
+        font-size:1.95rem;
+        margin-bottom: 90px;  
     }
     .contenedor-contacto{
         display: flex;
